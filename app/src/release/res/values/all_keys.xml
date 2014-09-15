@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Google Related -->
+    <string name="google_maps_key">AIzaSyAE6kdukNMNAGsqeADtaWKFID-93KqrMbQ</string>
+    <string name="google_browser_key">AIzaSyBYvvahlfjyKswIsfoN5JzsT9EMth84-RM</string>
+
+    <!-- Parse Related -->
+    <string name="parse_app_id">VLyOUO8KgGyqLw595rBfVyA68DXJqse4Nc02ySbS</string>
+    <string name="parse_client_key">Ydfor3wPs0UqccXVWFgeChzCu4MlWXot2bz4QZ7Z</string>
+
+    <!-- Facebook Related -->
+    <string name="facebook_app_id">628776133886386</string>
+
+    <!-- Twitter Related -->
+    <string name="twitter_consumer_key">YOUR_TWITTER_CONSUMER_KEY</string>
+    <string name="twitter_consumer_secret">YOUR_TWITTER_CONSUMER_SECRET</string>
+
+</resources>

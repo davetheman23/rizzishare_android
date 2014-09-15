@@ -4,4 +4,23 @@
     <string name="app_name">Rizzi</string>
     <string name="title_activity_home">Rizzi</string>
 
+    <!-- Parse Related -->
+
+    <!-- Twitter Related -->
+
+
+    <!-- Facebook Related -->
+    <string-array name="facebook_permissions">
+        <item>public_profile</item>
+        <item>user_friends</item>
+    </string-array>
+
+    <!-- Latitude, longitude format -->
+    <!-- Address format -->
+    <string name="address_output_string">%1$s %2$s %3$s</string>
+    <string name="going_from"><b>From</b></string>
+    <string name="going_to"><b>To</b></string>
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+
 </resources>
+

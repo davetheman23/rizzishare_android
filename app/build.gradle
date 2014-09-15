@@ -21,9 +21,10 @@ android {
 
 dependencies {
     // google play services
-    compile 'com.google.android.gms:play-services:5.2.08'
+    compile 'com.google.android.gms:play-services:4.4.+'
 
     // libraries
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile project(':libraries:facebook')
+    compile project(':libraries:ParseLoginUI')
 }

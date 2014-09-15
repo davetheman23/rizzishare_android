@@ -1,8 +1,29 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
         <!-- Customize your theme here. -->
+    </style>
+    <style name="Button.Standard" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Button.ThirdPartyLogin" parent="Button.Standard">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="TextView.Standard" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/Grey</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="EditText.Standard" parent="@android:style/Widget.EditText">
+        <item name="android:singleLine">true</item>
     </style>
 
 </resources>

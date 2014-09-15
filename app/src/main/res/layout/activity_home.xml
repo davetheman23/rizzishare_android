@@ -1,7 +1,43 @@
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/map"
-    tools:context=".HomeActivity"
-    android:name="com.google.android.gms.maps.SupportMapFragment"/>
+    android:orientation="vertical"
+    >
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activity_home_mappane"
+        tools:context=".HomeActivity"
+        android:name="com.google.android.gms.maps.MapFragment"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@color/WhiteSmoke">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src = "@drawable/ic_search_dark"/>
+        <com.rizzishare.rizzi.utils.MyAutoCompleteTextView
+            android:id="@+id/activity_home_autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin ="5dp"
+            android:textColor="@color/Black"
+            android:singleLine="true"
+            android:hint="Search"/>
+    </LinearLayout>
+
+</RelativeLayout>
