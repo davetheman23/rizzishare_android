@@ -17,7 +17,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.parse.ParseGeoPoint;
-import com.rizzishare.rizzi.ParseClasses.Place;
+import com.rizzishare.rizzi.parseclass.Place;
 import com.rizzishare.rizzi.R;
 
 import org.json.JSONArray;
