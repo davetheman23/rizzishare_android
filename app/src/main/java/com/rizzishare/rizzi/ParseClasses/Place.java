@@ -1,4 +1,4 @@
-package com.rizzishare.rizzi.ParseClasses;
+package com.rizzishare.rizzi.parseclasses;
 
 import android.location.Location;
 

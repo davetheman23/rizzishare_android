@@ -42,12 +42,12 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.parse.ParseFacebookUtils;
 import com.parse.ParseUser;
-import com.rizzishare.rizzi.ParseClasses.Place;
-import com.rizzishare.rizzi.Utils.LocationUtils;
-import com.rizzishare.rizzi.Utils.MyAutoCompleteTextView;
-import com.rizzishare.rizzi.Utils.PlaceUtils;
-import com.rizzishare.rizzi.Utils.PlacesAutoCompleteAdapter;
-import com.rizzishare.rizzi.Utils.RizziApp;
+import com.rizzishare.rizzi.parseclasses.Place;
+import com.rizzishare.rizzi.utils.LocationUtils;
+import com.rizzishare.rizzi.utils.MyAutoCompleteTextView;
+import com.rizzishare.rizzi.utils.PlaceUtils;
+import com.rizzishare.rizzi.utils.PlacesAutoCompleteAdapter;
+import com.rizzishare.rizzi.utils.RizziApp;
 
 import java.util.ArrayList;
 import java.util.Date;
