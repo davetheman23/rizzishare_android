@@ -6,7 +6,7 @@ import android.content.Context;
 import com.parse.Parse;
 import com.parse.ParseFacebookUtils;
 import com.parse.ParseObject;
-import com.rizzishare.rizzi.ParseClasses.Place;
+import com.rizzishare.rizzi.parseclass.Place;
 import com.rizzishare.rizzi.R;
 
 /**

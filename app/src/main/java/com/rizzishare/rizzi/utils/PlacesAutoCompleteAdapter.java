@@ -6,7 +6,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Filter;
 import android.widget.Filterable;
 
-import com.rizzishare.rizzi.ParseClasses.Place;
+import com.rizzishare.rizzi.parseclass.Place;
 
 import java.util.ArrayList;
 

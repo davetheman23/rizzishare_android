@@ -30,7 +30,7 @@
             android:layout_gravity="center"
             android:padding="5dp"
             android:src = "@drawable/ic_search_dark"/>
-        <com.rizzishare.rizzi.Utils.MyAutoCompleteTextView
+        <com.rizzishare.rizzi.utils.MyAutoCompleteTextView
             android:id="@+id/activity_home_autoCompleteTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
